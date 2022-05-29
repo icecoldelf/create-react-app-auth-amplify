@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+//import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+//import { Authenticator, SignIn } from 'aws-amplify-react-native';
 import Amplify from 'aws-amplify';
 import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
@@ -30,4 +31,4 @@ class App extends Component {
   }
 }
 
-export default withAuthenticator(App);
+//export default withAuthenticator(App);
