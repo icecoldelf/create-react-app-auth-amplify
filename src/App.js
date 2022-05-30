@@ -15,13 +15,15 @@ class App extends Component {
           
         </header>
         <body>
-          <form>
-            <label>
-              File:
-              <input type="text" name="name" />
-            </label>
-            <input type="submit" value="Submit" />
-          </form>
+          <div class="App-file-form">
+            <form>
+              <label>
+                File:
+                <input type="text" name="name" />
+              </label>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
         </body>
       </div>
     );
